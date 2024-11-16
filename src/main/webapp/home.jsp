@@ -96,11 +96,11 @@
 			<li><a href="update.jsp">Change Password</a></li>
 			<li><a href="delete.jsp">Delete account</a></li>
 			<li><a href="logout">Log Out</a></li>
-			
+	
 		</ul>
 	</nav>
 	
-	<footer><p>&copy; Kartik. All right reserved</p></footer>
+	<footer><p>&copy; kartik . All right reserved</p></footer>
 	
 </body>
 </html>

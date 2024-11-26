@@ -23,7 +23,7 @@ public class WatchlistServlet extends HttpServlet {
 		HttpSession session = request.getSession(false);
 		
 		if(session == null || session.getAttribute("user") == null) {
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("index.jsp");
 			return;
 		}
 		

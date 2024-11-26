@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect("home.jsp");
 		}else {
 			System.out.println("User Not Registered");
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("register.jsp");
 		}
 	}
 

@@ -4,13 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Register User</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link rel="stylesheet" href="index.css">	
+<title>Login page</title>
 </head>
 <body>
-<div class="wrapper">
-    <form action="registerservlet" method="post">
-        <h2>User Registration</h2>
+  <div class="wrapper">
+    <form action="loginservlet" method="post">
+        <h2>User Login</h2>
         <div class="input-field">
             <input type="text" name="username" required>
         <label>Username</label>
@@ -20,9 +21,9 @@
         <label>Password</label>
       </div>
       
-      <button type="submit">Register</button>
+      <button type="submit">Log In</button>
       <div class="register">
-        <p>Already registered ? <a href="login.jsp">Login</a></p>
+        <p>Don't have an account? <a href="register.jsp">Register</a></p>
       </div>
     </form>
   </div>

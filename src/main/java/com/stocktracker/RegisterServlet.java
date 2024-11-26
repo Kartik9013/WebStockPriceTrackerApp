@@ -25,10 +25,10 @@ public class RegisterServlet extends HttpServlet {
 	 	
 	 	if(ud.registerUser(username, password)) {
 	 		System.out.println("User Registered");
-	 		response.sendRedirect("login.jsp");
+	 		response.sendRedirect("index.jsp");
 	 	}else {
 			System.out.println("User not Registered");
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("register.jsp");
 		}
 		
 		}

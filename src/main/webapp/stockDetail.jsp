@@ -105,7 +105,7 @@
         color: white; /* White text color */
         text-align: center; /* Centered text */
         padding: 5px 0; /* Reduced padding for a smaller footer */
-        position: relative; /* Positioning */
+        position: fixed; /* Positioning */
         bottom: 0; /* Stick to the bottom */
         width: 100%; /* Full width */
         margin-top: 5px; /* Reduced margin above footer */

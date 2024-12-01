@@ -153,7 +153,7 @@ Watchlist mystocklist = (Watchlist) session.getAttribute("watchlist");
 			</tr>
 		</thead>
 		<%
-			if(mystocklist!=null){
+			if(mystocklist!=null && !mystocklist.getMywatchList().isEmpty()){
 				for(Stock mystock:mystocklist.getMywatchList()){
 		%>
 		<tbody>
